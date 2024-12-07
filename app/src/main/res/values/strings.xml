@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PlantApplication</string>
+    <string name="get_started_legal">By tapping next, you are agreeing to PlantID Terms of Use &amp; Privacy Policy.</string>
+    <string name="get_started_content_title">Welcome to <b>PlantApp</b></string>
+    <string name="get_started_content_subtext">Identify more than 3000+ plants and 88% accuracy.</string>
+    <string name="get_started">Get Started</string>
 </resources>
