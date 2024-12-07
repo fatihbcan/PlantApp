@@ -9,5 +9,32 @@
         android:id="@+id/getStartedFragment"
         android:name="com.example.plantapplication.get_started.view.GetStartedFragment"
         android:label="fragment_get_started"
-        tools:layout="@layout/fragment_get_started" />
+        tools:layout="@layout/fragment_get_started" >
+        <action
+            android:id="@+id/action_getStartedFragment_to_onboardingFirstFragment"
+            app:destination="@id/onboardingFirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onboardingFirstFragment"
+        android:name="com.example.plantapplication.onboarding.OnboardingFirstFragment"
+        android:label="fragment_onboarding_first"
+        tools:layout="@layout/fragment_onboarding_first" >
+        <action
+            android:id="@+id/action_onboardingFirstFragment_to_onboardingSecondFragment"
+            app:destination="@id/onboardingSecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onboardingSecondFragment"
+        android:name="com.example.plantapplication.onboarding.OnboardingSecondFragment"
+        android:label="fragment_onboarding_second"
+        tools:layout="@layout/fragment_onboarding_second" >
+        <action
+            android:id="@+id/action_onboardingSecondFragment_to_onboardingThirdFragment"
+            app:destination="@id/onboardingThirdFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onboardingThirdFragment"
+        android:name="com.example.plantapplication.onboarding.OnboardingThirdFragment"
+        android:label="fragment_onboarding_third"
+        tools:layout="@layout/fragment_onboarding_third" />
 </navigation>

@@ -14,9 +14,9 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="GetStartedTitle">
+    <style name="OnboardingTitleStyle">
         <item name="android:textSize">28sp</item>
-        <item name="android:textColor">@color/get_start_title_text</item>
+        <item name="android:textColor">@color/onboarding_title_color</item>
         <item name="android:fontFamily">@font/rubik</item>
     </style>
 
