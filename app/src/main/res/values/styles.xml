@@ -16,7 +16,7 @@
 
     <style name="OnboardingTitleStyle">
         <item name="android:textSize">28sp</item>
-        <item name="android:textColor">@color/onboarding_title_color</item>
+        <item name="android:textColor">@color/dark_jungle_green</item>
         <item name="android:fontFamily">@font/rubik</item>
     </style>
 
@@ -29,6 +29,11 @@
     <style name="GetStartedLegalText">
         <item name="android:textSize">11sp</item>
         <item name="android:textColor">@color/get_start_legal_text</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
+
+    <style name="DashboardTextStyle">
+        <item name="android:textColor">@color/dark_jungle_green</item>
         <item name="android:fontFamily">@font/rubik</item>
     </style>
 </resources>

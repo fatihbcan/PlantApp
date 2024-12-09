@@ -11,6 +11,11 @@ androidxAppCompat = "1.4.0"
 navigationFragmentKtx = "2.8.4"
 navigationUiKtx = "2.8.4"
 navigationSafeArgs = "2.8.4"
+material = "1.10.0"
+activity = "1.9.3"
+constraintlayout = "2.1.4"
+blurView = "version-2.0.5"
+glide = "4.10.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -22,6 +27,11 @@ androidx-fragments = { group = "androidx.fragment", name = "fragment-ktx", versi
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidxAppCompat"}
 androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
 androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+blurView = { group = "com.github.Dimezis", name = "BlurView", version.ref = "blurView" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide"}
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
