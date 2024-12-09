@@ -12,7 +12,9 @@ import com.example.plantapplication.dashboard.DashboardActivity
 import com.example.plantapplication.databinding.FragmentGetStartedBinding
 import com.example.plantapplication.databinding.FragmentOnboardingSecondBinding
 import com.example.plantapplication.databinding.FragmentOnboardingThirdBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class OnboardingThirdFragment : Fragment(R.layout.fragment_onboarding_third) {
 
     private var _binding : FragmentOnboardingThirdBinding? = null

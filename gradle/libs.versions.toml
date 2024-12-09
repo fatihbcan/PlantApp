@@ -16,6 +16,14 @@ activity = "1.9.3"
 constraintlayout = "2.1.4"
 blurView = "version-2.0.5"
 glide = "4.10.0"
+hilt = "2.48"
+kotlinxSerialization = "1.6.0"
+retrofit = "2.9.0"
+okHttp = "4.11.0"
+retrofitNetworkResponseAdapter = "5.0.0"
+kotlinxCoroutines = "1.7.3"
+retrofitKotlinxSerializationConverter = "1.0.0"
+viewBindingDelegate = "1.5.9"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -23,18 +31,33 @@ junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
 androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
-androidx-fragments = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "androidxFragments"}
-androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidxAppCompat"}
+androidx-fragments = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "androidxFragments" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidxAppCompat" }
 androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
 androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 blurView = { group = "com.github.Dimezis", name = "BlurView", version.ref = "blurView" }
-glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide"}
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
+hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerialization" }
+okHttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okHttp" }
+okHttpLoggingInterceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okHttp" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+retrofit-adapter-nra = { module = "com.github.haroldadmin:NetworkResponseAdapter", version.ref = "retrofitNetworkResponseAdapter" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutines" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutines" }
+retrofit-converter-kotlinx-serialization = { module = "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter", version.ref = "retrofitKotlinxSerializationConverter" }
+viewBindingDelegate  = { module = "com.github.kirich1409:viewbindingpropertydelegate-noreflection", version.ref = "viewBindingDelegate" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
+androidx-navigation-safeargs = { id = "androidx.navigation.safeargs", version.ref = "navigationSafeArgs" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-androidx-navigation-safeargs = { id = "androidx.navigation.safeargs", version.ref = "navigationSafeArgs"}
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+kotlinx-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin"}
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+
 

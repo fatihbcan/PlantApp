@@ -8,7 +8,9 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.plantapplication.R
 import com.example.plantapplication.databinding.FragmentGetStartedBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class GetStartedFragment : Fragment(R.layout.fragment_get_started) {
 
     private var _binding : FragmentGetStartedBinding? = null

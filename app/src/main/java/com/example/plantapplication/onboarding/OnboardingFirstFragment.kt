@@ -9,7 +9,9 @@ import androidx.navigation.fragment.findNavController
 import com.example.plantapplication.R
 import com.example.plantapplication.databinding.FragmentGetStartedBinding
 import com.example.plantapplication.databinding.FragmentOnboardingFirstBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class OnboardingFirstFragment : Fragment(R.layout.fragment_onboarding_first) {
 
     private var _binding : FragmentOnboardingFirstBinding? = null

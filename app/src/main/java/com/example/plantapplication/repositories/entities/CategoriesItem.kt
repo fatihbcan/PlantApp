@@ -1,4 +1,4 @@
-package com.example.plantapplication.dashboard.adapter
+package com.example.plantapplication.repositories.entities
 
 data class CategoriesItem(
     val title: String,

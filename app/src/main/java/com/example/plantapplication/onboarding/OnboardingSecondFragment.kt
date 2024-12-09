@@ -10,7 +10,9 @@ import com.example.plantapplication.R
 import com.example.plantapplication.databinding.FragmentGetStartedBinding
 import com.example.plantapplication.databinding.FragmentOnboardingFirstBinding
 import com.example.plantapplication.databinding.FragmentOnboardingSecondBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class OnboardingSecondFragment : Fragment(R.layout.fragment_onboarding_second) {
 
     private var _binding : FragmentOnboardingSecondBinding? = null

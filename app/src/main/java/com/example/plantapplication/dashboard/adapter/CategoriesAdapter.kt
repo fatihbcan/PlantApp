@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.plantapplication.R
 import com.example.plantapplication.databinding.CategoriesItemBinding
+import com.example.plantapplication.repositories.entities.CategoriesItem
 
 class CategoriesAdapter(
     private val context: Context,

@@ -4,6 +4,7 @@
     android:id="@+id/root_card"
     android:layout_width="158dp"
     android:layout_height="152dp"
+    android:layout_margin="5dp"
     android:elevation="2dp"
     app:cardCornerRadius="16dp">
 
@@ -29,13 +30,14 @@
             android:id="@+id/info_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@android:color/white"
             android:gravity="center"
-            android:padding="4dp"
             android:text="Edible Plants"
             android:textColor="@color/black"
-            android:textSize="20sp"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:breakStrategy="simple"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
