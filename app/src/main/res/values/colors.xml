@@ -9,7 +9,11 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="legal_text">#85FFFFFF</color>
+    <color name="premium_options_bg">#424743</color>
+    <color name="premium_options_stroke_inactive">#778078</color>
+    <color name="premium_options_stroke_active">#28AF6E</color>
     <color name="dark_jungle_green">#13231B</color>
     <color name="get_start_title_subtext">#B313231B</color>
     <color name="get_start_legal_text">#597165B2</color>

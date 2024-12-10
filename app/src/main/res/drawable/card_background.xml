@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Outer border (top border color) -->
+    <item android:top="8dp">
+        <shape>
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+
+    <!-- Middle border (right border color) -->
+    <item android:right="8dp">
+        <shape>
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+
+    <!-- Inner border (bottom border color) -->
+    <item android:bottom="8dp">
+        <shape>
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+
+    <!-- Left border color -->
+    <item android:left="8dp">
+        <shape>
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+</layer-list>

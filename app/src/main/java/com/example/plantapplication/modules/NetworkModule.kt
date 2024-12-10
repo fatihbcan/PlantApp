@@ -2,19 +2,19 @@ package com.example.plantapplication.modules
 
 import com.example.plantapplication.network.api.PlantApi
 import com.haroldadmin.cnradapter.NetworkResponseAdapterFactory
+import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
+import kotlinx.serialization.ExperimentalSerializationApi
+import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
+import retrofit2.Converter
 import retrofit2.Retrofit
 import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
-import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
-import kotlinx.serialization.ExperimentalSerializationApi
-import okhttp3.MediaType.Companion.toMediaType
-import retrofit2.Converter
 
 @Module
 @InstallIn(SingletonComponent::class)

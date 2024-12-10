@@ -1,4 +1,4 @@
-package com.example.plantapplication.get_started.view
+package com.example.plantapplication.onboarding
 
 
 import android.os.Bundle
@@ -22,7 +22,8 @@ class GetStartedFragment : Fragment(R.layout.fragment_get_started) {
 
         binding.getStartedButton.setOnClickListener {
             Log.d("Fatih","get start button clicked")
-            val action = GetStartedFragmentDirections.actionGetStartedFragmentToOnboardingFirstFragment()
+            val action =
+                GetStartedFragmentDirections.actionGetStartedFragmentToOnboardingFirstFragment()
             findNavController().navigate(action)
         }
     }

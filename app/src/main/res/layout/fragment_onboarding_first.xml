@@ -5,7 +5,7 @@
     android:background="@drawable/get_started_background"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    tools:context=".get_started.view.GetStartedFragment">
+    tools:context=".onboarding.GetStartedFragment">
 
 
     <TextView

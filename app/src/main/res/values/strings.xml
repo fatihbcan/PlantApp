@@ -10,7 +10,19 @@
     <string name="diagnose">Diagnose</string>
     <string name="my_garden">My Garden</string>
     <string name="profile">Profile</string>
-
+    <string name="plant_app_premium"><b>PlantApp</b> Premium</string>
+    <string name="access_all_features">Access All Features</string>
+    <string name="unlimited">Unlimited</string>
+    <string name="plant_identify">Plant identify</string>
+    <string name="faster">Faster</string>
+    <string name="process">Process</string>
+    <string name="one_month">1 Month</string>
+    <string name="one_month_price">$2.99/month, auto renewable</string>
+    <string name="one_year">1 Year</string>
+    <string name="one_year_price">First 3 days free, then $529,99/year</string>
+    <string name="save_fifty_percent">Save 50%</string>
+    <string name="after_three_day_free_trial">After the 3-day free trial period you’ll be charged ₺274.99 per year unless you cancel before the trial expires. Yearly Subscription is Auto-Renewable</string>
+    <string name="terms_privacy_restore">Terms  •  Privacy  •  Restore</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="good_afternoon">Good Afternoon! ⛅</string>

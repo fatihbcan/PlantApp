@@ -1,13 +1,10 @@
 package com.example.plantapplication.onboarding
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.plantapplication.R
-import com.example.plantapplication.databinding.FragmentGetStartedBinding
 import com.example.plantapplication.databinding.FragmentOnboardingFirstBinding
 import dagger.hilt.android.AndroidEntryPoint
 
