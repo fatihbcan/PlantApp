@@ -21,7 +21,6 @@ class GetStartedFragment : Fragment(R.layout.fragment_get_started) {
         _binding = FragmentGetStartedBinding.bind(view)
 
         binding.getStartedButton.setOnClickListener {
-            Log.d("Fatih","get start button clicked")
             val action =
                 GetStartedFragmentDirections.actionGetStartedFragmentToOnboardingFirstFragment()
             findNavController().navigate(action)
